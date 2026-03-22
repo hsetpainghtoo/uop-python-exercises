@@ -1,0 +1,434 @@
+2025-12-11 01:31:03,658 - INFO - Logging initialized. File: D:\FMS Framework\LanfengSaleData\app_debug.log
+2025-12-11 01:31:11,157 - INFO - Connecting to SSH: 192.168.0.100:22 as pos
+2025-12-11 01:31:11,177 - DEBUG - starting thread (client mode): 0x6c222ba0
+2025-12-11 01:31:11,178 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.12.0
+2025-12-11 01:31:11,191 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-12-11 01:31:11,191 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2025-12-11 01:31:11,196 - DEBUG - === Key exchange possibilities ===
+2025-12-11 01:31:11,196 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, sntrup761x25519-sha512@openssh.com, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, kex-strict-s-v00@openssh.com
+2025-12-11 01:31:11,196 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2025-12-11 01:31:11,197 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-12-11 01:31:11,197 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-12-11 01:31:11,197 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025-12-11 01:31:11,197 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025-12-11 01:31:11,197 - DEBUG - client compress: none, zlib@openssh.com
+2025-12-11 01:31:11,197 - DEBUG - server compress: none, zlib@openssh.com
+2025-12-11 01:31:11,197 - DEBUG - client lang: <none>
+2025-12-11 01:31:11,197 - DEBUG - server lang: <none>
+2025-12-11 01:31:11,197 - DEBUG - kex follows: False
+2025-12-11 01:31:11,197 - DEBUG - === Key exchange agreements ===
+2025-12-11 01:31:11,197 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-12-11 01:31:11,198 - DEBUG - HostKey: ssh-ed25519
+2025-12-11 01:31:11,198 - DEBUG - Cipher: aes128-ctr
+2025-12-11 01:31:11,198 - DEBUG - MAC: hmac-sha2-256
+2025-12-11 01:31:11,199 - DEBUG - Compression: none
+2025-12-11 01:31:11,199 - DEBUG - === End of kex handshake ===
+2025-12-11 01:31:11,220 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-12-11 01:31:11,223 - DEBUG - Switch to new keys ...
+2025-12-11 01:31:11,224 - DEBUG - Attempting password auth...
+2025-12-11 01:31:11,225 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com', 'publickey-hostbound@openssh.com': b'0'}
+2025-12-11 01:31:11,268 - DEBUG - userauth is OK
+2025-12-11 01:31:11,303 - INFO - Authentication (password) successful!
+2025-12-11 01:31:11,304 - INFO - SSH Tunnel Active. Local Bind Port: 54067
+2025-12-11 01:31:11,304 - INFO - Connecting to MySQL: 127.0.0.1:54067...
+2025-12-11 01:31:11,525 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2025-12-11 01:31:11,751 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2025-12-11 01:31:11,751 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2025-12-11 01:31:11,805 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2025-12-11 01:31:11,805 - DEBUG - Secsh channel 0 opened.
+2025-12-11 01:31:17,077 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:31:22,146 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:31:27,220 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:31:32,305 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:31:37,381 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:31:42,485 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:31:47,561 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:31:52,639 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:31:57,707 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:02,783 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:07,852 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:12,942 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:18,009 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:23,082 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:28,152 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:33,225 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:38,290 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:43,357 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:48,442 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:53,516 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:32:58,607 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:03,669 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:08,751 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:13,818 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:18,870 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:23,939 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:29,012 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:34,075 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:39,135 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:44,215 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:49,289 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:54,361 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:33:59,426 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:04,499 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:09,568 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:14,634 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:19,711 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:24,781 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:29,844 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:34,903 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:39,969 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:45,039 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:50,104 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:34:55,164 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:00,230 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:05,304 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:10,379 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:15,450 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:20,515 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:25,575 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:30,654 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:35,732 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:40,807 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:45,877 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:50,950 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:35:56,026 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:01,093 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:06,157 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:11,252 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:16,318 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:21,387 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:26,448 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:31,517 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:36,590 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:41,654 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:46,711 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:51,781 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:36:56,848 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:01,915 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:06,970 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:12,031 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:17,099 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:22,165 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:27,227 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:32,322 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:37,330 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:42,396 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:47,480 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:52,581 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:37:57,654 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:02,729 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:07,803 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:12,888 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:17,950 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:23,009 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:28,083 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:33,138 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:38,227 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:43,320 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:48,413 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:53,498 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:38:58,574 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:03,650 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:08,728 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:13,800 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:18,865 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:23,938 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:28,997 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:34,065 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:39,148 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:44,221 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:49,322 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:54,402 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:39:59,428 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:04,513 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:09,575 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:14,633 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:19,706 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:24,772 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:29,853 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:34,909 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:39,991 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:45,089 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:50,153 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:40:55,226 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:00,289 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:05,370 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:10,435 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:15,501 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:20,561 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:25,631 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:30,685 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:35,752 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:40,804 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:45,870 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:50,973 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:41:56,038 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:01,120 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:06,204 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:11,210 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:16,211 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:21,304 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:26,383 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:31,467 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:36,553 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:41,632 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:46,699 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:51,764 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:42:56,827 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:43:01,909 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:43:06,968 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:43:12,050 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 01:43:14,628 - DEBUG - EOF in transport thread
+2025-12-11 10:58:36,258 - INFO - Logging initialized. File: /home/hset-paing/Desktop/code_folder/python_learning/learning/LanfengSaleData/app_debug.log
+2025-12-11 10:58:45,593 - INFO - Connecting to SSH: 192.168.0.100:22 as pos
+2025-12-11 10:58:45,602 - DEBUG - starting thread (client mode): 0xe758f710
+2025-12-11 10:58:45,602 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.12.0
+2025-12-11 10:58:45,614 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-12-11 10:58:45,614 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2025-12-11 10:58:45,616 - DEBUG - === Key exchange possibilities ===
+2025-12-11 10:58:45,616 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, sntrup761x25519-sha512@openssh.com, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, kex-strict-s-v00@openssh.com
+2025-12-11 10:58:45,616 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2025-12-11 10:58:45,616 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-12-11 10:58:45,616 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-12-11 10:58:45,616 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025-12-11 10:58:45,616 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025-12-11 10:58:45,616 - DEBUG - client compress: none, zlib@openssh.com
+2025-12-11 10:58:45,616 - DEBUG - server compress: none, zlib@openssh.com
+2025-12-11 10:58:45,616 - DEBUG - client lang: <none>
+2025-12-11 10:58:45,616 - DEBUG - server lang: <none>
+2025-12-11 10:58:45,617 - DEBUG - kex follows: False
+2025-12-11 10:58:45,617 - DEBUG - === Key exchange agreements ===
+2025-12-11 10:58:45,617 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-12-11 10:58:45,617 - DEBUG - HostKey: ssh-ed25519
+2025-12-11 10:58:45,617 - DEBUG - Cipher: aes128-ctr
+2025-12-11 10:58:45,617 - DEBUG - MAC: hmac-sha2-256
+2025-12-11 10:58:45,617 - DEBUG - Compression: none
+2025-12-11 10:58:45,617 - DEBUG - === End of kex handshake ===
+2025-12-11 10:58:45,670 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-12-11 10:58:45,671 - DEBUG - Switch to new keys ...
+2025-12-11 10:58:45,671 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com', 'publickey-hostbound@openssh.com': b'0'}
+2025-12-11 10:58:45,672 - DEBUG - Attempting password auth...
+2025-12-11 10:58:45,766 - DEBUG - userauth is OK
+2025-12-11 10:58:45,867 - INFO - Authentication (password) successful!
+2025-12-11 10:58:45,868 - INFO - SSH Tunnel Active. Local Bind Port: 36905
+2025-12-11 10:58:45,868 - INFO - Connecting to MySQL: 127.0.0.1:36905...
+2025-12-11 10:58:45,869 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2025-12-11 10:58:46,175 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2025-12-11 10:58:46,175 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2025-12-11 10:58:46,216 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2025-12-11 10:58:46,216 - DEBUG - Secsh channel 0 opened.
+2025-12-11 10:58:46,217 - DEBUG - Building SSL context
+2025-12-11 10:58:46,294 - DEBUG - Switching to SSL
+2025-12-11 10:58:46,363 - DEBUG - SSL has been enabled
+2025-12-11 10:58:46,363 - DEBUG - Starting authorization phase
+2025-12-11 10:58:46,363 - DEBUG - The provided initial strategy is caching_sha2_password
+2025-12-11 10:58:46,363 - INFO - package: mysql.connector.plugins
+2025-12-11 10:58:46,364 - INFO - plugin_name: caching_sha2_password
+2025-12-11 10:58:46,364 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-11 10:58:46,370 - DEBUG - Exchanging further packets
+2025-12-11 10:58:46,413 - DEBUG - caching_sha2_password completed succesfully
+2025-12-11 10:58:51,513 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:58:56,524 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:05,012 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:10,024 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:15,035 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:20,047 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:25,059 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:30,073 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:35,087 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:40,100 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:45,114 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:50,125 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 10:59:55,137 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:00,149 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:05,162 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:10,175 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:15,186 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:20,197 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:25,208 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:30,219 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:35,232 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:40,245 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:45,259 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:50,272 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:00:55,286 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:00,299 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:05,313 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:10,326 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:15,340 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:20,355 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:25,366 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:30,378 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:35,392 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:40,406 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:45,419 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:50,431 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:01:55,444 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:00,457 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:05,471 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:10,485 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:15,499 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:20,514 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:25,528 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:30,542 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:35,557 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:40,571 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:45,586 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:50,600 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:02:55,613 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:00,626 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:05,641 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:10,654 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:15,667 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:20,681 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:25,696 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:30,710 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:35,724 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:40,739 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:45,752 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:50,765 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:03:55,779 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:00,792 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:05,808 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:10,822 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:15,836 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:20,851 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:25,865 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:30,880 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:35,894 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:40,908 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:45,923 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:50,936 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:04:55,951 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:00,965 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:05,980 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:10,995 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:16,009 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:21,023 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:26,036 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:31,050 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:36,064 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:41,078 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:46,092 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:51,109 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:05:56,123 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:01,136 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:06,151 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:11,164 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:16,177 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:21,190 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:26,201 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:31,215 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:36,228 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:41,239 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:47,667 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:52,681 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:06:57,695 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:02,712 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:07,724 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:12,735 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:17,748 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:22,757 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:27,768 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:32,778 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:37,791 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:42,802 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:47,811 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:52,821 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:07:57,831 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:02,842 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:07,852 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:12,863 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:17,872 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:22,882 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:27,892 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:32,902 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:37,913 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:42,925 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:47,934 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:52,945 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:08:57,956 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:02,966 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:07,977 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:12,987 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:17,997 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:23,008 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:28,017 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:33,028 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:38,038 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:43,049 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:48,060 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:53,071 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:09:58,082 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:03,093 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:08,104 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:13,115 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:18,124 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:23,137 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:28,147 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:33,157 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:38,166 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:43,177 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:48,187 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:53,197 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:10:58,207 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:03,217 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:08,227 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:13,237 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:18,248 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:23,257 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:28,271 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:33,283 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:38,298 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:43,313 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:48,326 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:53,339 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:11:58,353 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:03,368 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:08,382 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:13,396 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:18,410 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:23,424 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:28,438 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:33,452 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:38,466 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:43,480 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:48,494 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:53,509 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:12:58,521 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:03,535 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:08,549 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:13,563 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:18,578 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:23,593 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:28,606 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:33,618 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:38,633 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:43,647 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:48,661 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:53,674 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:13:58,689 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:03,703 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:08,716 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:13,728 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:18,740 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:23,754 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:28,768 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:33,783 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:38,799 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:43,814 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:48,828 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:53,842 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:14:58,857 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:03,870 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:08,885 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:13,899 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:18,913 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:23,927 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:28,942 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:33,957 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:38,972 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:43,986 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:49,001 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:54,014 - DEBUG - Sending global request "keepalive@lag.net"
+2025-12-11 11:15:56,119 - DEBUG - EOF in transport thread
